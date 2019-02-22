@@ -862,6 +862,7 @@ function sendEmail(subject,content){
 
   var from_email = new helper.Email(config.EMAIL_FROM);
   var to_email = new helper.Email(config.EMAIL_TO);
+  var subject = subject;
   var content = new helper.Content("text/html", content);
   var mail = new helper.Mail(from_email, subject, to_email, content);
 
