@@ -872,7 +872,7 @@ function sendEmail(subject,content){
     body: mail.toJSON()
 });
 
-sg.API(request, function(error, response)){
+sg.API(request, function(error, response){
   console.log(response.statusCode)
   console.log(response.body)
   console.log(response.headers)
