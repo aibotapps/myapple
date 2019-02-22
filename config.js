@@ -8,6 +8,6 @@ module.exports = {
     GOOGLE_CLIENT_EMAIL: process.env.GOOGLE_CLIENT_EMAIL,
 	GOOGLE_PRIVATE_KEY: process.env.GOOGLE_PRIVATE_KEY,
   SENGRID_API_KEY:process.env.SENGRID_API_KEY,
-  EMAIL_FROM:process.env.SENGRID_API_KEY,
+  EMAIL_FROM:process.env.EMAIL_FROM,
   EMAIL_TO:process.env.EMAIL_TO
 };
