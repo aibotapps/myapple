@@ -41,6 +41,7 @@ if (!config.SENGRID_API_KEY) { //sending email
 }
 if (!config.EMAIL_FROM) { //sending email
     throw new Error('missing EMAIL_FROM');
+}
 }if (!config.EMAIL_TO) { //sending email
     throw new Error('EMAIL_TO');
 }
