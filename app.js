@@ -870,18 +870,14 @@ function sendEmail(subject,content){
     method: 'POST',
     path: '/v3/mail/send',
     body: mail.toJSON()
-});
+   });
 
-sg.API(request, function(error, response){
-  console.log(response.statusCode)
-  console.log(response.body)
-  console.log(response.headers)
-
+   sg.API(request, function(error, response){
+     console.log(response.statusCode)
+      console.log(response.body)
+      console.log(response.headers)
+    })
 }
-
-
-}
-
 
 function isDefined(obj) {
     if (typeof obj == 'undefined') {
